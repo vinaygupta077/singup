@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form >
+        <h1> Sign Up </h1>
+        
+        <fieldset>
+          <label for="fname"><b>Name</b></label><br>
+      <input type="text" id="fname" name="fname" size="50" placeholder="Enter your full name" autofocus autocomplete="off"/><br>
+
+      <label for="Email"><b>Email</b></label><br>
+      <input type="text" id="Email" name="Email" size="50" placeholder="abc@gmail.com" autocomplete="off"/><br>
+
+      <label for="Phone No."><b>Phone Number</b></label><br>
+      <input type="tel" id="Phone No." name="Phone No." maxlength="10" size="50" placeholder="123-45-678" autocomplete="off"/><br>
+
+      <label for="Age"><b>Age</b></label><br>
+      <input type="number" id="Age" name="Age">
+          
+        </fieldset>
+        <fieldset>  
+            <div class="bio">
+                <label><b>Gender</b></label>
+                <input type="radio" id="Male" name="Gender" value="Male" />
+                <label for="Male">Male</label>
+                <input type="radio" id="Female" name="Gender" value="Gender" />
+                <label for="Female">Female</label>
+                <input type="radio" id="Others" name="Gender" value="Others" />
+                <label for="Others">Others</label>
+              </div>
+
+          
+    <div class="bio2">
+        <label style="padding: 4px;"><b>Hobbies</b></label>
+        <input type="checkbox" id="Hobbies1" name="Hobbies1" value="Dancing" />
+        <label for="Hobbies1"> Dancing</label>
+        <input type="checkbox" id="Hobbies2" name="Hobbies2" value="Singing" />
+        <label for="Hobbies2"> Singing</label>
+        <input type="checkbox" id="Hobbies3" name="Hobbies3" value="Theater" />
+        <label for="Hobbies3">Theater</label>
+        <input type="checkbox" id="Hobbies4" name="Hobbies4" value="Gaming" />
+        <label for="Hobbies4"> Gaming</label>
+        <input type="checkbox" id="Hobbies5" name="Hobbies5" value="Coding" />
+      </div>
+
+      
+    <div>
+        <label for="City"><b>Choose your city:</b></label><br>
+       <select>
+          <datalist id="City">
+          <option value="Select Your city">Select Your city</option>
+          <option value="New Delhi">New Delhi</option>
+          <option value="Gurgoan">Gurgoan</option>
+          <option value="Jaipur">Jaipur</option>
+          <option value="Lucknow">Lucknow</option>
+        </datalist>
+        </select>
+      </div>
+
+      <div class="address">
+        <label for="Address"><b>Address:</b></label>
+        <input type="text" id="fname" name="fname" size="50" placeholder="Enter your Address" autofocus autocomplete="off"/><br />
+      </div>
+     
+         </fieldset>
+       
+        <button type="submit">Sign Up</button>
+        
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
